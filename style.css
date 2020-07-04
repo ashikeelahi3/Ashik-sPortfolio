@@ -7,17 +7,128 @@
 .section-1{
   background: url(./images/top-banner.png);
   background-repeat: no-repeat;
-  min-height: 200px;
+  min-height: 500px;
+  margin-bottom: 100px;
 }
 
+.section-2{
+  background: url(./images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  min-height: 500px;
+}
+.section-3{
+  background: url(./images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  min-height: 500px;
+}
 .half-width{
   width: 50%;
   height: 100%;
-  text-align: center;
+  float: left;
 }
 
-.section-1 h1{
+.welcome{
+  width: 85%;
+  margin: 10%;
+  padding: 5%;
+}
+.welcome-heading {
+  line-height: 40px;
+}
+.welcome-heading h3{
+  font-size: 30px;
+}
+.section-1 .half-width h1{
   text-transform: uppercase;
   color: tomato;
-  text-align: center;
+  font-size: 40px;
+  font-family: serif;
+}
+.name{
+  color: blueviolet;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  }
+.small-title {
+    font-family: 'Odibee Sans', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    color: black;
+}
+.paragraph-text{
+  font-size: medium;
+  color: gray;
+  text-align: justify;
+  word-spacing: 10px;
+  margin-top: 30px;
+  /* width: 80%; */
+}
+.my-img{
+  margin-top: 20px;
+  width: 70%;
+}
+
+.dream-header {
+  margin: 20px 0px;
+  margin-top: 100px;
+}
+.width-80 {
+  width: 80%;
+}
+
+
+
+
+
+
+.btn {
+  cursor: pointer;
+  background-color: purple;
+  display: inline-block;
+  padding: 10px 15px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.card {
+  width: 80%;
+  min-height: 450px;
+  background-color: rgba(249, 230, 233, 0.699);
+  box-shadow: 10px 10px 40px gray;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10%;
+}
+
+.card-1{
+  border-left: 10px solid;
+  border-image: linear-gradient(180deg, tomato, rgb(245, 146, 129));
+  border-image-slice: 1;
+}
+.card-2{
+  border-left: 10px solid;
+  border-image: linear-gradient(180deg, cyan, rgb(130, 243, 243));
+  border-image-slice: 1;
+}
+.card h2 {
+  margin-bottom: 20px;
+}
+.card h3 {
+  margin-bottom: 20px;
+  color: orange;
+}
+.card p {
+  text-align: justify;
 }
